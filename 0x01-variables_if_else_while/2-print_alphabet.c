@@ -9,7 +9,7 @@ int main(void)
 char ch = 'a';
 while (ch <= 'z')
 {
-printf("%c\n", ch);
+printf("%c \n", ch);
 ch++;
 }
 return (0);
