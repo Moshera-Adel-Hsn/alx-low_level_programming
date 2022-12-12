@@ -9,8 +9,9 @@ int main(void)
 char ch = 'a';
 while (ch <= 'z')
 {
-printf("%c\n", ch);
+putchar(ch);
 ch++;
+putchar('\n');
 }
 return (0);
 }
