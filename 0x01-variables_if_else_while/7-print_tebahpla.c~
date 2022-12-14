@@ -7,11 +7,11 @@
 */
 int main(void)
 {
-char alphabet = 'a';
-while (alphabet <= 'z')
+char ch = 'z';
+while (ch >= 'a')
 {
-putchar(alphabet);
-alphabet++;
+putchar(ch);
+ch++;
 }
 putchar('\n');
 return (0);
