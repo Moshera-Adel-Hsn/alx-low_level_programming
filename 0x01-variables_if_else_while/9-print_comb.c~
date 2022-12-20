@@ -7,18 +7,13 @@
 */
 int main(void)
 {
-int a, b;
-for (a = '0' ; a <= '8' ; a++)
+int num;
+for (num = '0'; num <= '8'; num++)
 {
-for (b = '1' ; b <= '9' ; b++)
-{
-putchar(b);
+putchar(num);
 putchar(',');
 putchar(' ');
-
 }
- putchar(a);
-}
-putchar('\n');
+ putchar('9');
 return (0);
 }
